@@ -13,11 +13,6 @@ public class LayoutManagerEchelon extends RecyclerView.LayoutManager {
     private Context mContext;
 
 
-    /**
-     * constructor
-     * @param context
-     */
-
     public LayoutManagerEchelon(Context context) {
         this.mContext = context;
         mItemViewWidth = (int) (getHorizontalSpace() * 0.87f);
